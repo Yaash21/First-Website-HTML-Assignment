@@ -1,0 +1,205 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    width:100%;
+    margin: 0;    
+}
+
+.logo{
+    position: relative;
+    background-color: black;
+    height: 120px;
+    margin: auto;
+}
+
+.logo2{
+    position: absolute;
+    left: 450px;
+    margin: auto;
+    padding-top: 10px;
+}
+.logo3{
+    padding-left:: 50px;
+    padding-top: 10px;
+}
+
+.navigation{
+    background-color: darkblue;
+    height: 30px;
+    color: white;
+    width: 100%;
+}
+
+.navigation li {
+    display: inline;
+    padding: 50px;
+    font-size: 15px;    
+}
+
+.navigation li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.search{
+    float: right;
+    padding-top: 3px;
+    padding-right: 15px;
+}
+
+
+.push {
+    padding-top: 150px;
+    margin: 0;
+    background-color: white;
+}
+
+
+.hero{
+    right: 10px;
+    margin-left: 0;
+}
+.heroimage{
+    margin-left:-10px;
+}
+
+.clients{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkred;
+    height: 140px;
+    width:197px; 
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.clients ul{
+    list-style-position: inside;
+    list-style-type: square;  
+}
+
+.clients ul a{
+    color:black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.clients ul a:hover{
+    background-color: white;
+    color: black;
+}
+
+.clients li{
+    font-size: 15px;
+    color: black;
+
+
+}
+
+.retail{
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkred;
+    height: 140px;
+    width:197px; 
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.retail a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.retail a:hover{
+    background-color: white;
+    color: black;
+}
+
+.enquiry{
+    font-size: 22px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkred;
+    height: 140px;
+    width:197px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+    
+
+
+.prod{
+    position: relative;
+    font-size: 40px;
+    top: 20px;
+}
+
+.row1 ul{
+    list-style-type: square;
+    list-style-position: inside; 
+}
+
+.row2 ul{
+    list-style-type: square;
+    list-style-position: inside; 
+}
+
+.row3 ul{
+    list-style-type: square;
+    list-style-position: inside; 
+}
+
+footer{
+    position: relative;
+    top: 40px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+.follow{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.icons li{
+    display: inline;
+    padding: 40px;
+
+}
+
+.fa-facebook-official{
+    background:#3B5998;
+    color:white;
+}
+
+.fa-pinterest-square {
+    background: #cb2027;
+    color: white;
+
+}
+
+.fa-google-plus-square{
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin-square{
+    background: #007bb5;
+    color: white;
+}
